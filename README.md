@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <title>Travel</title>
 <meta charset="UTF-8">
@@ -32,7 +31,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
 
 <!-- Header -->
 <header class="w3-display-container w3-content w3-hide-small" style="max-width:1500px">
-  <img class="w3-image" src="https://i.ytimg.com/vi/8lSyW7Pf8rU/maxresdefault.jpg" alt="London" width="1800" height="700">
+  <img class="w3-image" src="https://i.ytimg.com/vi/8lSyW7Pf8rU/maxresdefault.jpg" alt="London" width="auto" height="auto">
 
   <div class="w3-display-middle" style="width:65%">
     <div class="w3-bar w3-black">
@@ -91,7 +90,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
   <div class="w3-row-padding w3-text-white w3-large">
     <div class="w3-half w3-margin-bottom">
       <div class="w3-display-container">
-        <img src="C:\Users\Admin\Desktop\cinqueterre.png" alt="Cinque Terre" style="width:100%">
+        <img src="https://media.tacdn.com/media/attractions-splice-spp-674x446/06/fe/d0/03.jpg" alt="Cinque Terre" style="width:100%">
         <span class="w3-display-bottomleft w3-padding">Cinque Terre</span>
       </div>
     </div>
