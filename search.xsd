@@ -1,0 +1,23 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="search">
+    <xs:restriction base="xs:string">
+      <xs:length value="15"/>
+    </xs:restriction>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Search" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="From"/>
+              <xs:element type="xs:string" name="To"/>
+              <xs:element type="xs:integer" name="Date"/>
+              <xs:element type="xs:integer" name="Time"/>
+              <xs:element type="xs:string" name="Place"/>
+              <xs:element type="xs:string" name="Flightname"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
