@@ -8,7 +8,7 @@
 <style>
   /* unvisited link */
 a:link {
-  color: rgb(0,0,0);
+  color: white;
   text-decoration: underline;
 }
 
@@ -19,9 +19,9 @@ a {
 }
   
 body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
-.myLink {display: none}{background-color: rgb(0,0,0);}
+.myLink {display: none}
 </style>
-<body class="w3-light-grey">
+<body class="w3-black">
 
 <!-- Navigation Bar -->
 <div class="w3-bar w3-white w3-border-bottom w3-xlarge">
@@ -31,8 +31,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
 
 <!-- Header -->
 <header class="w3-display-container w3-content w3-hide-small" style="max-width:1500px">
-  <img class="w3-image" src="https://i.ytimg.com/vi/8lSyW7Pf8rU/maxresdefault.jpg" alt="London" width="auto" height="auto">
-
+  <img class="w3-image" src="https://i.ytimg.com/vi/8lSyW7Pf8rU/maxresdefault.jpg" alt="London" width="1800" height="700">
   <div class="w3-display-middle" style="width:65%">
     <div class="w3-bar w3-black">
       <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Flight');"><i class="fa fa-plane w3-margin-right"></i>Flight</button>
@@ -60,21 +59,21 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
           <input class="w3-input w3-border" type="text" placeholder="Arriving at">
         </div>
       </div>
-      <p><button class="w3-button w3-dark-grey"><a href="search.xml">Search and find dates</a></button></p>
+      <p><button class="w3-button w3-black"><a href="search.xml">Search and find dates</a></button></p>
     </div>
 
     <div id="Hotel" class="w3-container w3-white w3-padding-16 myLink">
       <h3>Find the best hotels</h3>
       <p>Book a hotel with us and get the best fares and promotions.</p>
       <p>We know hotels - we know comfort.</p>
-      <p><button class="w3-button w3-dark-grey">Search Hotels</button></p>
+      <p><button class="w3-button w3-black">Search Hotels</button></p>
     </div>
 
     <div id="Car" class="w3-container w3-white w3-padding-16 myLink">
       <h3>Best car or bike rental in the world!</h3>
       <p><span class="w3-tag w3-deep-orange">DISCOUNT!</span> Special offer if you book today: 25% off anywhere in the world with CarServiceRentalRUs</p>
       <input class="w3-input w3-border" type="text" placeholder="Pick-up point">
-      <p><button class="w3-button w3-dark-grey">Search Availability</button></p>
+      <p><button class="w3-button w3-black">Search Availability</button></p>
     </div>
   </div>
 </header>
@@ -90,7 +89,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
   <div class="w3-row-padding w3-text-white w3-large">
     <div class="w3-half w3-margin-bottom">
       <div class="w3-display-container">
-        <img src="https://media.tacdn.com/media/attractions-splice-spp-674x446/06/fe/d0/03.jpg" alt="Cinque Terre" style="width:100%">
+        <img src="C:\Users\Admin\Desktop\cinqueterre.png" alt="Cinque Terre" style="width:100%">
         <span class="w3-display-bottomleft w3-padding">Cinque Terre</span>
       </div>
     </div>
@@ -174,9 +173,9 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
       <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
       <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email" required name="Email"></p>
       <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" required name="Message"></p>
-      <p><a href="https://www.google.com/">Google</a></p>
+      <p ><a href="https://www.google.com/">Google</a></p>
       <p><a href="https://www.yahoo.com/">yahoo</a></p>
-      <p><button class="w3-button w3-black w3-padding-large" type="submit">SEND MESSAGE</button></p>
+      <p><button class="w3-button w3-red w3-padding-large" type="submit">SEND MESSAGE</button></p>
     </form>
   </div>
   
