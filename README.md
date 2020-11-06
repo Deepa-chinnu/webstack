@@ -31,8 +31,8 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
 
 <!-- Header -->
 <header class="w3-display-container w3-content w3-hide-small" style="max-width:1500px">
-  <img class="w3-image" src="https://i.ytimg.com/vi/8lSyW7Pf8rU/maxresdefault.jpg" alt="London" width="1800" height="800">
-  <div class="w3-display-bottommiddle" style="width:55%">
+  <img class="w3-image" src="https://i.ytimg.com/vi/8lSyW7Pf8rU/maxresdefault.jpg" alt="London" width="1800" height="700">
+  <div class="w3-display-bottommiddle" style="width:65%">
     <div class="w3-bar w3-black">
       <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Flight');"><i class="fa fa-plane w3-margin-right"></i>Flight</button>
       <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Hotel');"><i class="fa fa-bed w3-margin-right"></i>Hotel</button>
@@ -89,7 +89,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
   <div class="w3-row-padding w3-text-white w3-large">
     <div class="w3-half w3-margin-bottom">
       <div class="w3-display-container">
-        <img src="https://cdn1.discovertuscany.com/img/cinque-terre/cinque-terre-manarola-night.jpg?auto=compress,enhance,format&w=480&q=40" alt="Cinque Terre" style="width:100%">
+        <img src="C:\Users\Admin\Desktop\cinqueterre.png" alt="Cinque Terre" style="width:100%">
         <span class="w3-display-bottomleft w3-padding">Cinque Terre</span>
       </div>
     </div>
@@ -169,7 +169,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
     <i class="fa fa-map-marker" style="width:30px"></i> Delhi, India<br>
     <i class="fa fa-phone" style="width:30px"></i> Phone:+91 8892619403<br>
     <i class="fa fa-envelope" style="width:30px"> </i> Email: deepa.c549@gmail.com<br>
-    <form action="/action_page.php" target="_blank">
+    <form action="/action_page.html" target="_blank">
       <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
       <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email" required name="Email"></p>
       <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" required name="Message"></p>
