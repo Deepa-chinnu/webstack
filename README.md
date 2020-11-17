@@ -66,7 +66,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
       <h3>Find the best hotels</h3>
       <p>Book a hotel with us and get the best fares and promotions.</p>
       <p>We know hotels - we know comfort.</p>
-      <p><button class="w3-button w3-black"><a href="registration form.html>Hotels</a></button></p>
+      <p><button class="w3-button w3-black"><a href="registration form.html">Hotels</a></button></p>
     </div>
 
     <div id="Car" class="w3-container w3-white w3-padding-16 myLink">
