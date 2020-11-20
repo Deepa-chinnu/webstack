@@ -73,7 +73,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
       <h3>Best car or bike rental in the world!</h3>
       <p><span class="w3-tag w3-deep-orange">DISCOUNT!</span> Special offer if you book today: 25% off anywhere in the world with CarServiceRentalRUs</p>
       <input class="w3-input w3-border" type="text" placeholder="Pick-up point">
-      <p><button class="w3-button w3-black">Search Availability</button></p>
+      <p><button class="w3-button w3-black"><a href="dom.html">Search Availability</a></button></p>
     </div>
   </div>
 </header>
