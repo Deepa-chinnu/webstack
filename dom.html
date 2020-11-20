@@ -41,7 +41,7 @@
                 myFunction(this);
             }
         };
-        xhttp.open("GET","teacher.xml",true);
+        xhttp.open("GET","search.xml",true);
         console.log(xhttp.readyState);
         xhttp.send();
     }
