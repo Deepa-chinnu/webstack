@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<style>
+h1,p{
+  text-align:center;
+  color: #800000;
+}
+table,th,td {
+  border : 1px solid black;
+  border-collapse: collapse;
+   margin-left: auto;
+  margin-right: auto;
+}
+th,td {
+  padding: 9px;
+}
+</style>
+<body>
+<h1>Explore the peace</h1>
+<p>Click on the places to know about it</p>
+<p id='showsearch'></p>
+<table id="demo"></table>
+
+
+<script>
+var x,xmlhttp,xmlDoc
+xmlhttp = new XMLHttpRequest();
+xmlhttp.open("GET", "search.xml", false);
+xmlhttp.send();
+xmlDoc = xmlhttp.responseXML;
+x = xmlDoc.getElementsByTagName("search");
+table="<tr><th>Flight number</th><th>Flightname</th></tr>";
+for (i = 0; i <x.length; i++) {
+  table += "<tr onclick='displaysearch(" + i + ")'><td>";
+  table += x[i].getElementsByTagName("name")[0].childNodes[0].nodeValue;
+  table += "</td><td>";
+  table +=  x[i].getElementsByTagName("author")[0].childNodes[0].nodeValue;
+  table += "</td></tr>";
+}
+document.getElementById("demo").innerHTML = table;
+
+function displaybook(i) {
+  document.getElementById("showsearch").innerHTML =
+  "FROM: " +
+  x[i].getElementsByTagName("From")[0].childNodes[0].nodeValue +
+  "<br>TO: " +
+  x[i].getElementsByTagName("To")[0].childNodes[0].nodeValue +
+  "<br>TIME: " +
+  x[i].getElementsByTagName("Time")[0].childNodes[0].nodeValue +
+  "<br>PLACE: " +
+  x[i].getElementsByTagName("Place")[0].childNodes[0].nodeValue;
+}
+
+</script>
+
+</body>
+</html>
