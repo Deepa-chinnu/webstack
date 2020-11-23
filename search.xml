@@ -169,8 +169,5 @@ xsi:noNamespaceSchemaLocation="search.xsd">
   <Time>10.00pm</Time>
   <Place>Netaji Subhas Chandra Bose International Airport</Place>
   <Flightname>Kingfisher</Flightname>
-</search>
-  
-  
-  
+</search>  
 </Search>
