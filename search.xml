@@ -66,4 +66,45 @@ xsi:noNamespaceSchemaLocation="search.xsd">
   <Place>Goa international airport</Place>
   <Flightname>Airline</Flightname>
 </search>
+  <search>
+  <From>Madurai</From>
+  <To>West Bengal</To>
+  <Date>13-10-2020</Date>
+  <Time>08.00pm</Time>
+  <Place>Madurai airport</Place>
+  <Flightname>Airline</Flightname>
+</search>
+  <search>
+  <From>Mangalore</From>
+  <To>Srilanka</To>
+  <Date>15-10-2020</Date>
+  <Time>10.00am</Time>
+  <Place>Mangalore international airport</Place>
+  <Flightname>GoAir</Flightname>
+</search>
+  <search>
+  <From>Maharashtra</From>
+  <To>Nepal</To>
+  <Date>15-10-2020</Date>
+  <Time>1.00pm</Time>
+  <Place>Nashik international airport</Place>
+  <Flightname>Spice Jet</Flightname>
+</search>
+  <search>
+  <From>Gujarat</From>
+  <To>Paris</To>
+  <Date>14-10-2020</Date>
+  <Time>7.00pm</Time>
+  <Place>Surat international airport</Place>
+  <Flightname>GoAir</Flightname>
+</search>
+  <search>
+  <From>Thiruvananthapuram</From>
+  <To>Ladak</To>
+  <Date>17-10-2020</Date>
+  <Time>9.00pm</Time>
+  <Place>Trivandrum international airport</Place>
+  <Flightname>Airline</Flightname>
+</search>
+  
 </Search>
