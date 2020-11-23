@@ -129,9 +129,9 @@ var numbers = /^[0-9]+$/;
 var zip_name = document.getElementById("zip");
 var zip_value = document.getElementById("zip").value;
 var zip_length = zip_value.length;
-if(!zip_value.match(numbers) || zip_length !== 5)
+if(!zip_value.match(numbers) || zip_length <5 || zip_length>7)
 {
-document.getElementById('zip_err').innerHTML = 'You must enter a ZIP code, which must be numeric and must be at least 5 chracters long.';
+document.getElementById('zip_err').innerHTML = 'You must enter a ZIP code, which must be at least 5 chracters long and less than 7.';
 zip_name.focus();
 document.getElementById('zip_err').style.color = "#FF0000";
 }
