@@ -138,6 +138,39 @@ xsi:noNamespaceSchemaLocation="search.xsd">
   <Place>Lal Bahadur Shastri International Airport</Place>
   <Flightname> Air India</Flightname>
 </search>
+  <search>
+  <From>Indore</From>
+  <To>Sinagapore</To>
+  <Date>18-10-2020</Date>
+  <Time>6.00am</Time>
+  <Place>Devi Ahilya Bai Holkar Airport</Place>
+  <Flightname> Air India</Flightname>
+</search>
+  <search>
+  <From>varanasi</From>
+  <To>Kanyakumari</To>
+  <Date>19-10-2020</Date>
+  <Time>8.00am</Time>
+  <Place>Lal Bahadur Shastri International Airport</Place>
+  <Flightname> Air Deccan</Flightname>
+</search>
+  <search>
+  <From>Coimbatore</From>
+  <To>New Delhi</To>
+  <Date>20-10-2020</Date>
+  <Time>7.00pm</Time>
+  <Place>Coimbatore International Airport</Place>
+  <Flightname> IndiaGo</Flightname>
+</search>
+  <search>
+  <From>Kolkatta</From>
+  <To>Kenya</To>
+  <Date>20-10-2020</Date>
+  <Time>10.00pm</Time>
+  <Place>Netaji Subhas Chandra Bose International Airport</Place>
+  <Flightname>Kingfisher</Flightname>
+</search>
+  
   
   
 </Search>
