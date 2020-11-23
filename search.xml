@@ -50,4 +50,20 @@ xsi:noNamespaceSchemaLocation="search.xsd">
   <Place>Indira Gandhi international airport</Place>
   <Flightname>Quantas Airway</Flightname>
 </search>
+  <search>
+  <From>Rajasthan</From>
+  <To>Italy</To>
+  <Date>12-10-2020</Date>
+  <Time>11.00am</Time>
+  <Place>Rajiv Gandhi international airport</Place>
+  <Flightname>Quantas Airway</Flightname>
+</search>
+  <search>
+  <From>Goa</From>
+  <To>Frances</To>
+  <Date>13-10-2020</Date>
+  <Time>10.00am</Time>
+  <Place>Goa international airport</Place>
+  <Flightname>Airline</Flightname>
+</search>
 </Search>
