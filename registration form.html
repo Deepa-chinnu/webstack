@@ -73,7 +73,7 @@ var passid_value = document.getElementById("passid").value;
 var passid_length = passid_value.length;
 if(passid_length<6)
 {
-document.getElementById('passwd_err').innerHTML = 'Password must be at least 6 chracters long';
+document.getElementById('passwd_err').innerHTML = 'Password must be at least 6 characters long';
 passid_name.focus();
 document.getElementById('passwd_err').style.color = "#FF0000";
 }
@@ -93,7 +93,7 @@ var username_length = username_value.length;
 var letters = /^[0-9a-zA-Z]+$/;
 if(username_length < 4 || !username_value.match(letters))
 {
-document.getElementById('name_err').innerHTML = 'Username must be 4 chracters long and alphanuric chracters only.';
+document.getElementById('name_err').innerHTML = 'Username must be 4 characters long and alphanumeric characters only.';
 username_name.focus();
 document.getElementById('name_err').style.color = "#FF0000";
 }
@@ -131,7 +131,7 @@ var zip_value = document.getElementById("zip").value;
 var zip_length = zip_value.length;
 if(!zip_value.match(numbers) || zip_length <5 || zip_length>7)
 {
-document.getElementById('zip_err').innerHTML = 'You must enter a ZIP code, which must be at least 5 chracters long and less than 7.';
+document.getElementById('zip_err').innerHTML = 'You must enter a ZIP code, which must be at least 5 characters long and less than 7.';
 zip_name.focus();
 document.getElementById('zip_err').style.color = "#FF0000";
 }
