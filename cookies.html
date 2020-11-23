@@ -1,0 +1,67 @@
+<html>
+<head>
+    <title>Cookie!!!</title>
+    <style type="text/css">
+      body{
+     background-image: url('https://www.rd.com/wp-content/uploads/2017/12/00_Top-Travel-Trends-for-2018_209155915_06photo_FT.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+
+    </style>
+    <script type="text/javascript">
+
+        function createCookie(cookieName,cookieValue,daysToExpire)
+        {
+          var date = new Date();
+          date.setTime(date.getTime()+(daysToExpire*24*60*60*1000));
+          document.cookie = cookieName + "=" + cookieValue + "; expires=" + date.toGMTString();
+        }
+        function accessCookie(cookieName)
+        {
+          var name = cookieName + "=";
+          var allCookieArray = document.cookie.split(';');
+          for(var i=0; i<allCookieArray.length; i++)
+          {
+            var temp = allCookieArray[i].trim();
+            if (temp.indexOf(name)==0)
+            return temp.substring(name.length,temp.length);
+          }
+            return "";
+        }
+        function checkCookie()
+        {
+          var user = accessCookie("testCookie");
+          if (user!="")
+            alert("Welcome Back " + user + "!!!");
+          else
+          {
+            user = prompt("Please enter your name");
+            num = prompt("How many days you want to store your name on your computer?");
+            if (user!="" && user!=null)
+            {
+            createCookie("testCookie", user, num);
+            }
+          }
+        }
+    </script>
+</head>
+<body onload="checkCookie()">
+  <p>These terms of use govern your use of our website; by using our website, you agree to these terms of use in full. If you disagree with these terms of use or any part of these terms of use, you must not use our website.</br><br>
+
+Our website uses cookies. By using our website and agreeing to these terms of use, you consent to our use of cookies in accordance with the terms of our cookies policy.</br></br>
+
+(2) Credit</br>
+
+This document was created using an SEQ Legal template.</br>
+
+(3) Licence to use website</br>
+
+Unless otherwise stated, we or our licensors own the intellectual property rights in the website and material on the website. Subject to the licence below, all these intellectual property rights are reserved.</br>
+
+You may view, download for caching purposes only, and print pages from the website for your own personal use, subject to the restrictions set out below and elsewhere in these terms of use.</p>
+
+</p>
+</body>
+</html>
