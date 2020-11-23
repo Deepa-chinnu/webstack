@@ -4,7 +4,7 @@
 <html> 
 <body>
   <h2>Travel Management Website</h2>
-  <table border="1" cellspacing="0">
+  <table border="1" cellspacing="1">
     <tr bgcolor="#A3D8E8">
       <th style="text-align:left">From</th>
       <th style="text-align:left">To</th>
