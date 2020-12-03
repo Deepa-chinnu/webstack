@@ -6,18 +6,6 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-  /* unvisited link */
-a:link {
-  color: white;
-  text-decoration: underline;
-}
-
-/* visited link */
-a {
-  color: currentColor;
-    text-decoration: none;
-}
-  
 body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
 .myLink {display: none}
 </style>
@@ -31,17 +19,48 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
 </div>
 
 <!-- Header -->
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:transparent;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+</style>
 <header class="w3-display-container w3-content w3-hide-small" style="max-width:1500px">
+  <ul>
+  <li><a href="about.html">About</a></li>
+  <li><a href="json.html">Places</a></li>
+  <li><a href="blog.html">Blog</a></li>
+  <li><a href="tryit.asp-filename=trycss_navbar_horizontal_black.html#about">Home</a></li>
+</ul>
+
+
   <img class="w3-image" src="https://i.ytimg.com/vi/8lSyW7Pf8rU/maxresdefault.jpg" alt="London" width="1800" height="700">
+
   <div class="w3-display-bottommiddle" style="width:65%">
     <div class="w3-bar w3-black">
       <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Flight');"><i class="fa fa-plane w3-margin-right"></i>Flight</button>
       <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Hotel');"><i class="fa fa-bed w3-margin-right"></i>Hotel</button>
       <button class="w3-bar-item w3-button tablink" onclick="openLink(event, 'Car');"><i class="fa fa-car w3-margin-right"></i>Rental</button>
-      <ul>
-         <li style="float:right"><a class="active" href="about.html">About</a></li>
-
-       </ul>
 
 
     </div>
@@ -125,7 +144,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
       </div>
     </div>
   </div>
-
+  
   <!-- Explore Nature -->
   <div class="w3-container">
     <h3>Explore Nature</h3>
