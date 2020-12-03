@@ -1,0 +1,108 @@
+<!DOCTYPE HTML> 
+<html> 
+
+<head> 
+    <title> 
+    musitracks 
+    </title> 
+    
+    <script src= 
+"https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> 
+    </script> 
+</head> 
+
+<body style = "text-align:center;">
+
+    
+    <h1 style = "color:black;"> 
+        Find your favourite places here 
+    </h1> 
+    
+    <p id = "GFG_UP" style = 
+            "font-size: 15px; font-weight: bold;"> 
+    </p> 
+    
+    <button onclick = "GFG_FUN()"> 
+        table of places 
+    </button> 
+    
+    <br><br> 
+    <style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+}
+body{
+     background-image: url('https://4.bp.blogspot.com/-Ig6J1M5zsC4/VWi8hWX9c0I/AAAAAAAAByg/Yrh1dwT2kmY/s1600/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+</style>
+    
+    <table id="table" align = "center" border="4" cellspacing="2" cellpadding="10px"></table> 
+    
+    <script> 
+
+        var el_up = document.getElementById("GFG_UP"); 
+        
+        var list = [ 
+            {"country":"united states", "places":"dark houses",}, 
+            {"country":"New York", "places":"statue of liberty"}, 
+            {"country":"Europe", "places":"picchu"}, 
+            {"country":"Antartica", "places":"Alcatraz island"}, 
+            {"country":"London", "places":"Buckingham palace"}, 
+            {"country":"china", "places":"great wall"}, 
+            {"country":"syndey", "places":"opera House"}, 
+            {"country":"Paris", "places":"Eiffin tower"} 
+        ]; 
+        
+        el_up.innerHTML = "here is the table list " 
+                + "of places for you with offers.<br><br>" 
+                
+        
+        function GFG_FUN() { 
+            var cols = []; 
+            
+            for (var i = 0; i < list.length; i++) { 
+                for (var k in list[i]) { 
+                    if (cols.indexOf(k) === -1) { 
+                        
+                        cols.push(k); 
+                    } 
+                } 
+            } 
+
+            var table = document.createElement("table"); 
+
+            var tr = table.insertRow(-1); 
+            
+            for (var i = 0; i < cols.length; i++) { 
+
+                var theader = document.createElement("th"); 
+                theader.innerHTML = cols[i]; 
+
+                tr.appendChild(theader); 
+            } 
+
+            for (var i = 0; i < list.length; i++) { 
+
+                trow = table.insertRow(-1); 
+                for (var j = 0; j < cols.length; j++) { 
+                    var cell = trow.insertCell(-1); 
+ 
+                    cell.innerHTML = list[i][cols[j]]; 
+                } 
+            } 
+
+            var el = document.getElementById("table"); 
+            el.innerHTML = ""; 
+            el.appendChild(table); 
+        }    
+    </script> 
+</body> 
+
+</html>
